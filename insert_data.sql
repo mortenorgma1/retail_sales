@@ -30,3 +30,4 @@ INSERT INTO order_items (order_id, product_id, quantity) VALUES
 (5, 2, 1),   -- Headphones
 (6, 3, 1),   -- Office Chair
 (6, 5, 20);  -- Notebooks
+
