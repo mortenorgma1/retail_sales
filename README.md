@@ -1,13 +1,13 @@
-# 🛒 Retail Sales Performance Analysis (PostgreSQL)
+# Retail Sales Performance Analysis (PostgreSQL)
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes retail sales data using **PostgreSQL** to answer common business questions around revenue performance, product success, and customer value.
 
 The goal of the analysis is to provide **clear, reliable metrics** that can support decision-making in sales, marketing, and inventory planning.
 
 ---
 
-## 🗂 Dataset Description
+## Dataset Description
 
 The database follows a classic retail schema:
 
@@ -23,9 +23,9 @@ revenue = quantity × price
 
 ---
 
-## 🔍 Analysis Performed
+## Analysis Performed
 
-### 1️⃣ Monthly Revenue Trend
+### 1️ Monthly Revenue Trend
 - Calculates total revenue per month
 - Used to identify sales growth or seasonality
 
@@ -33,7 +33,7 @@ revenue = quantity × price
 
 ---
 
-### 2️⃣ Top Products by Revenue
+### 2️ Top Products by Revenue
 - Ranks products based on total revenue generated
 - Identifies best-performing products
 
@@ -41,7 +41,7 @@ revenue = quantity × price
 
 ---
 
-### 3️⃣ Revenue by Product Category
+### 3️ Revenue by Product Category
 - Aggregates revenue at the category level
 - Helps evaluate category-level performance
 
@@ -49,7 +49,7 @@ revenue = quantity × price
 
 ---
 
-### 4️⃣ Top Customers by Spend
+### 4️ Top Customers by Spend
 - Calculates total spend per customer
 - Identifies high-value customers
 
@@ -57,7 +57,7 @@ revenue = quantity × price
 
 ---
 
-## 🛠 Tools & Skills Used
+## Tools & Skills Used
 - PostgreSQL
 - SQL joins
 - Aggregations (`SUM`, `COUNT`)
@@ -68,11 +68,12 @@ revenue = quantity × price
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 - Order items act as the core **fact table**
 - Revenue metrics were aggregated at the correct business grain
 - Queries were designed to be readable, reusable, and scalable
 - Results directly support real-world business questions
+
 
 
 
