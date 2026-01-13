@@ -1,3 +1,19 @@
+/*
+Data Inserts: Retail Sales Sample Data
+
+This file contains sample data used to populate the retail sales database.
+The data is intentionally small but realistic, allowing queries to be easily
+validated and results to be manually checked.
+
+Notes:
+- Primary keys use SERIAL and are auto-generated
+- Insert statements do not manually supply IDs
+- Foreign key relationships assume inserts are executed in order
+
+This data supports testing and demonstration of analytical SQL queries.
+*/
+
+
 INSERT INTO customers (first_name, last_name, city) VALUES
 ('Anna', 'Smith', 'Berlin'),
 ('John', 'Brown', 'London'),
@@ -30,4 +46,5 @@ INSERT INTO order_items (order_id, product_id, quantity) VALUES
 (5, 2, 1),   -- Headphones
 (6, 3, 1),   -- Office Chair
 (6, 5, 20);  -- Notebooks
+
 
