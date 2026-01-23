@@ -1,5 +1,7 @@
--- Monthly revenue summary: aggregates orders by month to calculate total orders, total revenue, average order value, and month-over-month revenue change.
-
+/* 
+Monthly revenue summary: aggregates orders by month to calculate total orders, total revenue, 
+average order value, and month-over-month revenue change.
+*/
 
 select 
 date_trunc('month', o.order_date)::date as month,
@@ -11,4 +13,5 @@ join products p
 on oi.product_id = p.product_id
 group by month
 order by month
+
 
